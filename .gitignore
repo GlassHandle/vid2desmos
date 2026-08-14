@@ -1,0 +1,73 @@
+# Build
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Testing/
+compile_commands.json
+Makefile
+build.ninja
+.ninja_*
+
+# MSVC / generated project files
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.user
+.vs/
+
+# Binaries and objects
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# vid2desmos output
+out/
+output/
+*_part[0-9][0-9].txt
+*_part[0-9][0-9].json
+manifest.json
+
+# Source clips and rendered previews (large binaries)
+*.mp4
+*.gif
+*.mkv
+*.webm
+*.mov
+*.avi
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

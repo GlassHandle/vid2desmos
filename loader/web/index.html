@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>vid2desmos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="panel">
+    <header id="brand">
+      <span class="mark">v2d</span>
+      <span class="title">vid2desmos</span>
+      <button id="collapse" title="Hide panel">&#9664;</button>
+    </header>
+
+    <ol id="exprs"></ol>
+
+    <footer id="stats"></footer>
+  </aside>
+
+  <main id="stage">
+    <canvas id="graph"></canvas>
+
+    <div id="tools">
+      <button id="zoom-in"  title="Zoom in">+</button>
+      <button id="zoom-out" title="Zoom out">&minus;</button>
+      <button id="home"     title="Reset view">&#8962;</button>
+      <button id="grid"     title="Toggle grid" class="on">#</button>
+      <button id="ink"      title="Swap black/white">&#9681;</button>
+      <button id="shot"     title="Save this frame as PNG">&#8681;</button>
+    </div>
+
+    <div id="readout"></div>
+    <div id="expand" hidden>&#9654;</div>
+  </main>
+</div>
+
+<div id="loading">loading frames…</div>
+
+<script src="app.js"></script>
+</body>
+</html>
